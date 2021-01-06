@@ -590,7 +590,7 @@ async function starts() {
 						reply('Falhou')
 					}
 					break
-				case 'wait':
+				case 'anime2':
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 						reply(mess.wait)
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
